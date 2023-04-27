@@ -1,0 +1,107 @@
+/* TIPOGRAFIA */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Montserrat:wght@200;300;400;500;600;700;900&display=swap');
+
+ /* Estilos para todos los elementos */
+ * {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box; /* Agregamos esta propiedad para que los elementos se comporten mejor dentro de su contenedor */
+}
+
+/* Estilos para el body */
+body {
+   background-color: #FFCCD2;
+ }
+
+ header {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   background-color: #362222;
+   color: #fff;
+   display: flex;
+   align-items: center;
+   padding: 10px;
+   z-index: 9999; /* asegurarse de que el encabezado esté en la parte superior */
+   margin: auto;
+ }
+ 
+ p, h1, h2,h3, h4, a, span, button{
+  font-family: 'Montserrat', sans-serif;
+  margin: 2px;
+}
+
+h1{font-size: 24px;}
+h2{font-size: 20px;}
+h3{font-size: 18px;}
+h4{font-size: 16px;}
+p{font-size: 14px;}
+
+a{
+  text-decoration: none;
+}
+a img{
+  border: none,
+}
+
+ .logo-header {
+   display: flex;
+   align-items: center;
+   justify-content: center; 
+   background-color: #FFEDED;
+   padding: 5px;
+   border-radius: 14px;
+   margin-left: 2%;
+ }
+ 
+ .logo-header img {
+   width: 60px;
+   height: auto;
+ }
+
+ .logo-header span {
+   font-size: 30px;
+   font-weight: bold;
+   text-decoration: underline;
+   color: #222;
+ }
+
+.logo-header img{
+   width: 50px;
+}
+
+/* -------------------MENU----------------- */
+
+.nav-menu {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.nav-menu ul {
+  display: flex;
+  align-items: center;
+  background: rgb(54, 34, 34);
+}
+
+.nav-menu li {
+  list-style-type: none;
+}
+
+.nav-menu a {
+  display: inline;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 5rem;
+  font-weight: 500;
+}
+
+.nav-menu a:hover {
+  text-decoration: underline;
+}
+
+.menu-icon,
+#check {
+  display: none;
+}
