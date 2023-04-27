@@ -117,3 +117,27 @@ a img{
   height: 100%;
   object-fit: cover;
 }
+
+/* Estilo para el botón de siguiente */
+.splide__arrow--next{
+  content: ""; /* Agrega el texto que deseas para el botón de siguiente */
+  font-size:20px; /* Ajusta el tamaño de la fuente según tu preferencia */
+  font-weight: bold; /* Establece el grosor de la fuente */
+}
+
+.splide__arrow svg {
+  fill: #ffffff;
+}
+
+.splide__arrow {
+  background-color: #362222;
+  opacity: 100;
+}
+
+
+/* Estilo para el botón de anterior */
+.splide__arrow--prev{
+  content: ""; /* Agrega el texto que deseas para el botón de siguiente */
+  font-size:20px; /* Ajusta el tamaño de la fuente según tu preferencia */
+  font-weight: bold; /* Establece el grosor de la fuente */
+}
