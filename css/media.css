@@ -20,8 +20,8 @@
   
   
   .menu__navegacion li {
-  display: block;
-  }
+    display: block;
+    }
   
   .nav-menu {
     text-align: center;
@@ -60,11 +60,11 @@
       .menu__navegacion li {
       display: block;
       margin: 0.1rem;
+      padding-left: 4.5rem;
       }
   
       .menu__navegacion li a{
         margin: 0;
-        padding-left: 5rem;
       }
   
   #check {

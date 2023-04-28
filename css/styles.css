@@ -95,6 +95,7 @@ a img{
   font-size: 20px;
   margin-left: 5rem;
   font-weight: 500;
+  padding: 5px;
 }
 
 .nav-menu a:hover {
@@ -104,6 +105,11 @@ a img{
 .menu-icon,
 #check {
   display: none;
+}
+
+.inicio a {
+  border-top: 2px solid #B3541E;
+  border-bottom: 2px solid #B3541E;
 }
 
 /* -------------------SPLIDER----------------- */
