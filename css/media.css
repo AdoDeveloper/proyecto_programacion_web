@@ -395,6 +395,10 @@
   }
   
   /* FOOTER | PIE DE PAGINA */
+
+  .container__footer{
+    padding: 0px 30px;
+  }
   
   .box__footer-1,
   .box__footer-2,
