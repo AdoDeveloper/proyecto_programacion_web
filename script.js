@@ -22,3 +22,9 @@ window.addEventListener("scroll", () => {
         irArriba.style.right = 5 + "px";
     }
 });
+
+
+// Animacion
+AOS.init();
+
+  
