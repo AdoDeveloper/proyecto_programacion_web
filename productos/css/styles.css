@@ -196,6 +196,9 @@ a img{
   justify-content: center;
   align-items: center;
   }
+  .div-productos__panaderia img:hover{
+    transform: scale(1.1);
+  }
   
   /* Configura las imágenes dentro de los elementos con clase 'div-productos__panaderia img' */
   .div-productos__panaderia img{
@@ -262,6 +265,9 @@ a img{
       .div-productos__pasteleria{
       justify-content: center;
       align-items: center;
+      }
+      .div-productos__pasteleria img:hover{
+        transform: scale(1.1);
       }
       
       /* Estilo para las imágenes de los productos de pastelería */
