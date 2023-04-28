@@ -98,7 +98,7 @@ a img{
 }
 
 .nav-menu a:hover {
-  text-decoration: 3px underline #B3541E;
+  text-decoration: 3px underline #ffffff;
 }
 
 .menu-icon,
@@ -107,7 +107,12 @@ a img{
 }
 
 .inicio a {
-  text-decoration: 3px underline #B3541E;
+  border-top: 3px solid #B3541E;
+  border-bottom: 3px solid #B3541E;
+}
+
+.inicio a:hover{
+  text-decoration: none;
 }
 
 /* -------------------SPLIDER----------------- */

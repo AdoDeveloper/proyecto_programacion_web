@@ -24,4 +24,24 @@ window.addEventListener("scroll", () => {
 });
 
 // Animacion
-  
+const elementosAnimar = document.querySelectorAll('.animar, .animar2');
+
+window.addEventListener('scroll', () => {
+  elementosAnimar.forEach(elemento => {
+    const alturaViewport = window.innerHeight;
+    const distanciaElemento = elemento.getBoundingClientRect().top;
+    const alturaElemento = elemento.offsetHeight;
+
+    // Si el elemento está visible en el viewport
+    if (distanciaElemento < alturaViewport) {
+      elemento.classList.add('animado');
+    } else {
+      elemento.classList.remove('animado');
+    }
+  });
+});
+
+
+
+
+

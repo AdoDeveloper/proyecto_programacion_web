@@ -33,6 +33,28 @@
     margin-top: 72px;
   }
 
+  /* MARCAS */
+
+  .animar {
+    opacity: 0;
+    transform: translateX(-50%);
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+  }
+  .animar.animado {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .animar2 {
+    opacity: 0;
+    transform: translateX(50%);
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+  }
+  .animar2.animado {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
   /* ------------------------------------------------------------
 -----------------ESTILO PARA MÁXIMO DE 1024----------------------
 ------------------------------------------------------------ */
