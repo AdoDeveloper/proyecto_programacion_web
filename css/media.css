@@ -1,0 +1,34 @@
+/* ------------------------------------------------------------
+-----------------ESTILO PARA MÍNIMO DE 1025---------------------------
+------------------------------------------------------------ */
+@media only screen and (min-width: 1025px) and (max-width: 1250px) {
+
+    header {
+      padding: 7px; 
+    }
+  
+  .nav-menu a{
+    font-size: 20px;
+    margin-left: 4.5rem;
+  }
+  
+  .nav-menu
+  {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  
+  .menu__navegacion li {
+  display: block;
+  }
+  
+  .nav-menu {
+    text-align: center;
+    }
+  
+  }
+  
+  .splide{
+    margin-top: 72px;
+  }
