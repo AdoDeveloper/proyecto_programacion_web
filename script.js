@@ -23,8 +23,5 @@ window.addEventListener("scroll", () => {
     }
 });
 
-
 // Animacion
-AOS.init();
-
   
