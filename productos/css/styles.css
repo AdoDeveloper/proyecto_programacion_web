@@ -1,0 +1,444 @@
+/* TIPOGRAFIA */
+/* Importamos la fuente de Google Fonts 'Montserrat Alternates' con pesos 200, 300, 400, 500, 600, 700, 900 y 'Montserrat' con todos sus pesos, desde light hasta bold */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Montserrat:wght@200;300;400;500;600;700;900&display=swap');
+
+/* Estilos para todos los elementos */
+/* Definimos que todos los elementos tengan un margen y un relleno de 0 y que la propiedad 'box-sizing' sea 'border-box' para que los elementos se comporten mejor dentro de su contenedor */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos para el body */
+/* Asignamos un fondo de color rosa claro (#FFCCD2) al body */
+body {
+  background-color: #FFCCD2;
+}
+
+/* Estilos para el encabezado */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #362222;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  z-index: 9999; /* asegurarse de que el encabezado esté en la parte superior */
+  margin: auto;
+}
+
+/* Estilos para los elementos de texto */
+p, h1, h2, h3, h4, a, span, button {
+  font-family: 'Montserrat', sans-serif;
+  margin: 2px;
+}
+
+/* Estilos para los títulos */
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+/* Estilos para los párrafos */
+p {
+  font-size: 15px;
+}
+
+/* Estilos para los enlaces */
+a{
+  text-decoration: none;
+}
+a img{
+  border: none,
+}
+
+ .logo-header {
+   display: flex;
+   align-items: center;
+   justify-content: center; 
+   background-color: #FFEDED;
+   padding: 5px;
+   border-radius: 14px;
+   margin-left: 2%;
+ }
+ 
+ .logo-header img {
+   width: 60px;
+   height: auto;
+ }
+
+ .logo-header span {
+   font-size: 30px;
+   font-weight: bold;
+   text-decoration: underline;
+   color: #222;
+ }
+
+.logo-header img{
+   width: 50px;
+}
+
+/* -------------------MENU----------------- */
+
+.nav-menu {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.nav-menu ul {
+  display: flex;
+  align-items: center;
+  background: rgb(54, 34, 34);
+}
+
+.nav-menu li {
+  list-style-type: none;
+}
+
+.nav-menu a {
+  display: inline;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 5rem;
+  font-weight: 500;
+}
+
+.nav-menu a:hover {
+  text-decoration: underline;
+}
+
+.menu-icon,
+#check {
+  display: none;
+}
+
+/* -------------------SPLIDER----------------- */
+
+/* Agrega margen superior de 78px al elemento con clase 'splide' */
+.splide{
+  margin-top: 78px;
+  }
+  
+  /* Configura las imágenes dentro de los elementos con clase 'splide__slide' */
+  .splide__slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  }
+  /* Estilo para el botón de siguiente */
+  .splide__arrow--next{
+    content: ""; /* Agrega el texto que deseas para el botón de siguiente */
+    font-size:20px; /* Ajusta el tamaño de la fuente según tu preferencia */
+    font-weight: bold; /* Establece el grosor de la fuente */
+  }
+
+  .splide__arrow svg {
+    fill: #ffffff;
+  }
+
+  .splide__arrow {
+    background-color: #362222;
+    opacity: 100;
+  }
+
+  /* Estilo para el botón de anterior */
+  .splide__arrow--prev{
+    content: ""; /* Agrega el texto que deseas para el botón de siguiente */
+    font-size:20px; /* Ajusta el tamaño de la fuente según tu preferencia */
+    font-weight: bold; /* Establece el grosor de la fuente */
+  }
+    /* -------------------DOWN SPLIDER----------------- */
+    
+    /* Configura las imágenes dentro de los elementos con clase 'down-splide' */
+    .down-splide img{
+    width: 100%;
+    object-fit: cover;
+    }
+  
+  /* -------------------PRODUCTOS----------------- */
+  
+  /* +++++ PANADERIA +++++ */
+  
+  /* Alinea el contenido dentro de los elementos con clase 'productos__panaderia' */
+  .productos__panaderia{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  }
+  
+  /* Configura el título dentro de los elementos con clase 'productos__panaderia h2' */
+  .productos__panaderia h2{
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 25px;
+  }
+  
+  /* Alinea el contenido dentro de los elementos con clase 'div-productos__panaderia' */
+  .div-productos__panaderia{
+  justify-content: center;
+  align-items: center;
+  }
+  
+  /* Configura las imágenes dentro de los elementos con clase 'div-productos__panaderia img' */
+  .div-productos__panaderia img{
+    max-width: 100%;
+    margin: 50px 50px 25px 50px;
+    width: 300px;
+  }
+  
+  /* Configura el enlace con ID 'descarga' */
+  #descarga {
+  display: block;
+  margin: 50px auto;
+  padding: 10px 20px;
+  background-color: #362222;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+  max-width: 200px;
+  }
+  
+  /* Configura el efecto hover para el enlace con ID 'descarga' */
+  #descarga:hover {
+  background-color: #B3541E;
+  }
+  
+      /* Estilo para el icono del botón de descarga */
+      #descarga i.rotateIn {
+        margin-right: 10px;
+        animation-duration: 0.7s;
+        animation-name: rotateIn;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+      }
+  
+  /* LINEA ENTRE PRODUCTOS */
+
+.linea__productos {
+  max-width: 100%;
+  margin: 60px 0;
+  background-color: #362222;
+  height: 2px;
+}
+
+    /* +++++ PASTELERIA +++++ */
+
+    .productos__pasteleria{
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      }
+      
+      /* Estilo para el título de la sección de pastelería */
+      .productos__pasteleria h2{
+      font-size: 50px;
+      font-weight: 700;
+      margin-top: 25px;
+      }
+      
+      /* Estilo para el contenedor de los productos de pastelería */
+      .div-productos__pasteleria{
+      justify-content: center;
+      align-items: center;
+      }
+      
+      /* Estilo para las imágenes de los productos de pastelería */
+      .div-productos__pasteleria img{
+        max-width: 100%;
+        margin: 50px 50px 25px 50px;
+        width: 300px;
+      }
+      
+      /* Estilo para el botón de descarga */
+      #descarga2 {
+      display: block;
+      margin: 50px auto;
+      padding: 10px 20px;
+      background-color: #362222;
+      color: #fff;
+      text-decoration: none;
+      text-align: center;
+      border-radius: 5px;
+      transition: background-color 0.3s ease-in-out;
+      max-width: 200px;
+      }
+      
+      /* Estilo al pasar el cursor por encima del botón de descarga */
+      #descarga2:hover {
+      background-color: #B3541E;
+      }
+      
+      /* Estilo para el icono del botón de descarga */
+      #descarga2 i.rotateIn {
+        margin-right: 10px;
+        animation-duration: 0.7s;
+        animation-name: rotateIn;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+      }
+
+      /* Animación del icono del botón de descarga */
+@keyframes rotateIn {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+    
+      
+/* FOOTER | PIE DE PAGINA */
+
+footer{
+  width: 100%;
+  margin:  200px 0 0 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #362222;
+  color: #ffffff;
+}
+
+.container__footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.box__footer-1,
+.box__footer-2,
+.box__footer-3 {
+  width: 33.33%;
+  margin-bottom: 0;
+}
+
+.contenido__1 h2,
+.contenido__2 h2,
+.contenido__3 h2{
+  padding-bottom: 10px;
+  font-weight: 600;
+}
+
+/* Contenedor 1 */
+
+.box__footer-1{
+  padding: 20px 60px;
+}
+
+.contenido__1{
+  max-width: 230px;
+  font-size: 18px;
+  text-align: justify;
+}
+
+/* Contenedor 2 */
+.box__footer-2 {
+  text-align: center;
+  place-items: center;
+  display: grid;
+}
+
+.box__footer-2 a{
+  font-size: 30px;
+  padding: 20px 30px;
+}
+
+.footer-redes{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+
+/* Contenedor 3 */
+
+.box__footer-3 {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 60px;
+}
+
+.contenido__3 {
+  display: flex;
+  flex-direction: column;
+  max-width: 320px;
+}
+  
+  .item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0px;
+  width: 230px;
+  }
+  
+  .item i {
+  font-size: 20px;
+  }
+
+/* Contenedor 4 */
+
+.box__copyright hr{
+  border: none;
+  height: 1px;
+  background-color: #000000;
+  width: 100%;
+}
+
+
+.box__copyright p{
+  margin: auto;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+/* Ir Arriba */
+
+.ir-arriba {
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: #B3541E;
+  cursor: pointer;
+  transition: all 300ms ease;
+
+}
+
+.ir-arriba i {
+
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.ir-arriba:hover {
+  transform: scale(1.2);
+}
+
+    
