@@ -107,74 +107,81 @@ display: none;
 
 /* MENU */
 .checkbtn{
-    display: block;
+  display: block;
 }
 
 .nav-menu a{
-  font-size: 20px;
-  margin: 1rem;
+font-size: 20px;
+margin: 1rem;
 }
 
 .menu-icon{
-    display: block;
-    position: fixed;
-    top: 16px;
-    right: 30px;
-    cursor: pointer;
+display: block;
+position: fixed;
+top: 20px;
+right: 30px;
+}
+
+.menu-icon i{
+padding-top: 5px;
 }
 
 .nav-menu ul{
-  place-items: center;
-  display: grid; /* Para centrar verticalmente */
-  list-style-type: none;
-  text-align: center;
-  width: 100%;
-  height: 50%;
-  left: -100%;
-  top: 66px;
-  position: fixed;
-  transition: all 0.25s ease;
-  border-bottom: #ffffff solid 2px;
+place-items: center;
+display: grid; /* Para centrar verticalmente */
+list-style-type: none;
+text-align: center;
+width: 100%;
+height: 50%;
+left: -100%;
+top: 66px;
+position: fixed;
+transition: all 0.25s ease;
+border-bottom: #ffffff solid 2px;
 }
 
 .nav-menu ul li{
-    justify-content: center;
-    margin: 0;
-    padding: 0;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-menu ul li a{
-  font-size: 20px;
+font-size: 20px;
 }
 
 #check:checked ~ ul{
-    left: 0;
-    transition: all .25s;
+  left: 0;
+  transition: all .25s;
+}
+
+
+.menu-icon i {
+transition: all 0.25s ease;
+}
+
+/* --------- cambiar icono al abrir el menu en movil ---------- */
+/* --------- se utiliza el Unicode del icono al que se desea cambiar ---------- */
+#check:checked ~ label .menu-icon i:before { 
+content: '\f00d';
+color: #ffffff;
+font-size: 20px;
 }
 
 /* SPLIDER */
-  
+
 .splide{
   margin-top: 68px;
 }
 
-/* Estilos para pantallas con un ancho máximo de 920px */
-.splide__arrow--next{
-  font-size: 18px;
-}
-
-.splide__arrow--prev{
-  font-size: 18px;
-}
-
 /* ABAJO DE SPLIDER */
-.down-splide {
+.abajo-splide {
   padding: 3%;
   height: auto;
   padding: 30px 50px;
 }
 
-.down-splide h1 {
+.abajo-splide h1 {
   font-size: 20px;
 }
 
@@ -220,69 +227,79 @@ display: none;
   
 }
 
-/* FOOTER */
+/* FOOTER | PIE DE PAGINA */
+
+footer{
+  max-width: 100%;
+}
 
 .container__footer {
-  display: flex;
-  flex-direction:row;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-evenly;
 }
 
-.box__footer-1,
-.box__footer-2,
-.box__footer-3 {
-  width: 100%;
-  display: flex;
-  flex-direction:row;
-  margin-bottom: 30px;
-  justify-content: center;
-}
-
-.contenido__1{
-  max-width: 230px;
-  font-size: 18px;
-  text-align: justify;
-}
-
-.box__footer-1 h2{
+.contenido__1 h2,
+.contenido__2 h2,
+.contenido__3 h2{
+  font-size: 16px;
   text-align: center;
 }
 
-/* 3 */
-.box__footer-3 {
-  display: flex;
-  justify-content: center;
-  padding: 20px 60px;
+/* Contenedor 1 */
+
+.box__footer-1{
+  padding: 20px 10px;
 }
 
-.box__footer-3 h2{
-  text-align: center;
+.contenido__1 p{
+  max-width: 100%;
+  font-size: 16px;
 }
 
-.contenido__3 p{
-  text-align: justify;
+/* Contenedor 2 */
+
+.box__footer-2 a{
+  font-size: 16px;
+  padding: 20px 15px;
 }
-  
-  .item {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin: 10px 0px;
-  width: 230px;
-  }
-  
-  .item i {
+
+.footer-redes a i{
   font-size: 20px;
-  }
+  padding: 5px;
+}
+
+/* Contenedor 3 */
+.box__footer-3 {
+  justify-content: center;
+  padding: 20px 10px;
+}
+
+.contenido__3 {
+  max-width: 100%;
+}
+
+.item {
+  flex-direction: row;
+  gap: 5px;
+  margin: 5px 0px;
+  max-width: 100%;
+}
+
+.item p {
+  max-width: 100%;
+  word-break: break-all;
+}
+
+.item i {
+  font-size: 20px;
+}
+
+/* Contenedor 4 */
 
 .box__copyright p{
-  margin: auto;
-  text-align: center;
-  padding: 10px 0px;
+  font-size: 13px;
 }
 
-/* Ir Arriba */
+/* Botón Ir Arriba */
 
 .ir-arriba {
   width: 25px;
@@ -301,46 +318,88 @@ display: none;
 -----------------ESTILO PARA MÁXIMO DE 533---------------------
 ------------------------------------------------------------ */
 @media only screen and (max-width: 533px) {
-  .splide {
-    margin-top: 68px;
-  }
+
+    /* SPLIDER */
+    .splide{
+      margin-top: 68px;
+    }
   
-  .splide__slide img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .splide__slide {
-    display: flex;
+    .splide__slide img {
+      max-width: 100%;
+    max-height: 100%;
     height: 300px;
+    width: 530;
+  }
+  
+  /* ABAJO DE SPLIDER */
+  
+  .abajo-splide {
+    padding: 3%;
+    height: auto;
+    padding: 30px 40px;
+  }
+  
+  .abajo-splide h1 {
+    font-size: 18px;
+    margin: 0px 0px;
+  }
+  
+  /* FOOTER | PIE DE PAGINA */
+  
+  .box__footer-1,
+  .box__footer-2,
+  .box__footer-3 {
     width: 100%;
-    align-items: center;
+    display: flex;
+    flex-direction:row;
+    margin-bottom: 30px;
+    justify-content: center;
   }
-}
-
-@media only screen and (max-width: 533px) {
-
-  .splide{
-    margin-top: 68px;
-  }
-
-  .splide__slide img {
+  
+  /* Contenedor 1 */
+  .contenido__1{
     max-width: 100%;
-  max-height: 100%;
-  height: 300px;
-  width: 530;
-}
-
-
-.down-splide {
-  padding: 3%;
-  height: auto;
-  padding: 30px 40px;
-}
-
-.down-splide h1 {
-  font-size: 18px;
-  margin: 0px 0px;
-}
+  }
+  
+  .contenido__1 p{
+    max-width: 100%;
+  }
+  
+  /* Contenedor 2 */
+  
+  .contenido__2{
+    max-width: 100%;
+  }
+  
+  .footer-redes{
+    justify-content: space-between;
+  }
+  
+  .footer-redes a i{
+    font-size: 20px;
+    padding: 0px 5px;
+  }
+  
+  /* Contenedor 3 */
+  .box__footer-3 {
+    justify-content: center;
+    padding: 20px 10px;
+  }
+  
+  .box__footer-3 h2{
+    text-align: center;
+  }
+  
+  .contenido__3 p{
+    text-align: justify;
+  }
+    
+    .item {
+    gap: 10px;
+    margin: 10px 0px;
+    width: 100%;
+    }
+  
+  /* Contenedor 4 (No necesita cambios)*/
 
 }
