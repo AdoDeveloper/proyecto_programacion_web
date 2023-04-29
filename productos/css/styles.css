@@ -120,12 +120,20 @@ a img{
 }
 
 .nav-menu a:hover {
-  text-decoration: underline;
+  text-decoration: 3px underline #ffffff;
 }
 
 .menu-icon,
 #check {
   display: none;
+}
+.productos a {
+  border-top: 3px solid #B3541E;
+  border-bottom: 3px solid #B3541E;
+}
+
+.productos a:hover{
+  text-decoration: none;
 }
 
 /* -------------------SPLIDER----------------- */
