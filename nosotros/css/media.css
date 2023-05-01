@@ -61,11 +61,11 @@ display: block;
     .menu__navegacion li {
     display: block;
     margin: 0.1rem;
+    padding-left: 4.5rem;
     }
 
     .menu__navegacion li a{
       margin: 0;
-      padding-left: 5rem;
     }
 
 #check {
@@ -75,8 +75,7 @@ display: none;
 .abajo-splide h1 {
   font-size: 35px;
   margin: 0px 40px;
-}
-
+  }
 
 /* HISTORIA */
 
@@ -133,100 +132,116 @@ footer{
 ------------------------------------------------------------ */
 @media only screen and (max-width: 920px) {
 
-/* LOGO */
-
-.logo-header {
-  display: flex;
-  align-items: center;
-  justify-content: center; 
-  padding: 5px;
-  border-radius: 14px;
-  margin-left: 0;
-}
-
-.logo-header img {
-  width: 40px;
-  height: auto;
-}
-
-.logo-header span {
-
-  font-size: 20px;
-
-}
-
-/* MENU */
-.checkbtn{
-    display: block;
-}
-
-.nav-menu a{
-  font-size: 20px;
-  margin: 1rem;
-}
-
-.menu-icon{
+  * LOGO */
+  
+  .logo-header {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding: 5px;
+    border-radius: 14px;
+    margin-left: 0;
+  }
+  
+  .logo-header img {
+    width: 40px;
+    height: auto;
+  }
+  
+  .logo-header span {
+  
+    font-size: 20px;
+  
+  }
+  
+  /* MENU */
+  .checkbtn{
+      display: block;
+  }
+  
+  .nav-menu a{
+    font-size: 20px;
+    margin: 1rem;
+  }
+  
+  .menu-icon{
     display: block;
     position: fixed;
-    top: 16px;
+    top: 20px;
     right: 30px;
-    cursor: pointer;
-}
-
-.nav-menu ul{
-  place-items: center;
-  display: grid; /* Para centrar verticalmente */
-  list-style-type: none;
-  text-align: center;
-  width: 100%;
-  height: 50%;
-  left: -100%;
-  top: 66px;
-  position: fixed;
-  transition: all 0.25s ease;
-  border-bottom: #ffffff solid 2px;
-}
-
-.nav-menu ul li{
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-}
-
-.nav-menu ul li a{
-  font-size: 20px;
-}
-
-#check:checked ~ ul{
-    left: 0;
-    transition: all .25s;
-}
-
-/* SPLIDER */
+  }
   
-.splide{
-  margin-top: 68px;
-}
-
-/* Estilos para pantallas con un ancho máximo de 920px */
-.splide__arrow--next{
-  font-size: 18px;
-}
-
-.splide__arrow--prev{
-  font-size: 18px;
-}
-
-/* ABAJO DE SPLIDER */
-.abajo-splide {
-  padding: 3%;
-  height: auto;
-  padding: 30px 50px;
-}
-
-.abajo-splide h1 {
-  font-size: 20px;
-}
+  .menu-icon i{
+    padding-top: 5px;
+  }
+  
+  .nav-menu ul{
+    place-items: center;
+    display: grid; /* Para centrar verticalmente */
+    list-style-type: none;
+    text-align: center;
+    width: 100%;
+    height: 50%;
+    left: -100%;
+    top: 66px;
+    position: fixed;
+    transition: all 0.25s ease;
+    border-bottom: #ffffff solid 2px;
+  }
+  
+  .nav-menu ul li{
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+  }
+  
+  .nav-menu ul li a{
+    font-size: 20px;
+  }
+  
+  #check:checked ~ ul{
+      left: 0;
+      transition: all .25s;
+  }
+  
+  
+  .menu-icon i {
+    transition: all 0.25s ease;
+  }
+  
+  /* --------- cambiar icono al abrir el menu en movil ---------- */
+  /* --------- se utiliza el Unicode del icono al que se desea cambiar ---------- */
+  #check:checked ~ label .menu-icon i:before { 
+    content: '\f00d';
+    color: #ffffff;
+    font-size: 20px;
+  }
+  
+  /* SPLIDER */
+  
+  .splide{
+    margin-top: 68px;
+  }
+  
+  /* Estilos para pantallas con un ancho máximo de 920px */
+  .splide__arrow--next{
+    font-size: 16px;
+  }
+  
+  .splide__arrow--prev{
+    font-size: 16px;
+  }
+  
+  /* ABAJO DE SPLIDER */
+  .abajo-splide {
+    padding: 3%;
+    height: auto;
+    padding: 30px 50px;
+  }
+  
+  .abajo-splide h1 {
+    font-size: 20px;
+  }
 
 
 /* HISTORIA */
