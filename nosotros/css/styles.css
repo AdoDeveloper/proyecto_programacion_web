@@ -1,3 +1,12 @@
+.nosotros a {
+  border-top: 3px solid #B3541E;
+  border-bottom: 3px solid #B3541E;
+}
+
+.nosotros a:hover{
+  text-decoration: none;
+}
+
 /* TIPOGRAFIA */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Montserrat:wght@200;300;400;500;600;700;900&display=swap');
 
