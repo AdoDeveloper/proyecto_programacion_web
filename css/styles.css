@@ -113,6 +113,7 @@ a img{
 
 .inicio a:hover{
   text-decoration: none;
+  
 }
 
 /* -------------------SPLIDER----------------- */
@@ -190,6 +191,7 @@ a img{
   margin: 50px 50px 25px 50px;
   width: 300px;
   border-radius: 5px;
+  box-shadow:  10px 10px 20px #3622228c;
 }
 
 .div-productos__panaderia img:hover{
@@ -233,6 +235,7 @@ a img{
   margin: 50px 50px 25px 50px;
   width: 300px;
   border-radius: 5px;
+  box-shadow:  10px 10px 20px #3622228c;
 }
 
 .div-productos__pasteleria img:hover{
