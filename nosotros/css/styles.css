@@ -142,7 +142,7 @@ a img{
 }
 
 /* -------------------DOWN SPLIDER----------------- */
-.down-splide {
+.abajo-splide {
   padding: 3%;
   color: #ffffff;
   text-align: center;
@@ -151,7 +151,7 @@ a img{
   height: 182px;
 }
 
-.down-splide h1 {
+.abajo-splide h1 {
   font-size: 40px;
   margin: 0px 50px;
 }
@@ -228,7 +228,7 @@ a img{
 
 footer{
   width: 100%;
-  margin:  200px 0 0 0;
+  margin:  10px 0 0 0;
   padding: 0;
   box-sizing: border-box;
   background-color: #362222;
@@ -346,4 +346,4 @@ footer{
 
 .ir-arriba:hover {
   transform: scale(1.2);
-} /* FIN BOTON */
+} /* FIN BOTON * 
