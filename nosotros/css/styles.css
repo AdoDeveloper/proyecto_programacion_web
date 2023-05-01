@@ -98,7 +98,7 @@ a img{
 }
 
 .nav-menu a:hover {
-  text-decoration: underline;
+  text-decoration: 3px underline #ffffff;
 }
 
 .menu-icon,
