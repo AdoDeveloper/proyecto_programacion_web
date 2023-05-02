@@ -45,32 +45,31 @@ a img{
   border: none,
 }
 
- .logo-header {
-   display: flex;
-   align-items: center;
-   justify-content: center; 
-   background-color: #FFEDED;
-   padding: 5px;
-   border-radius: 14px;
-   margin-left: 2%;
- }
- 
- .logo-header img {
-   width: 60px;
-   height: auto;
- }
-
- .logo-header span {
-   font-size: 30px;
-   font-weight: bold;
-   text-decoration: underline;
-   color: #222;
- }
-
-.logo-header img{
-   width: 50px;
+.logo-header {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  background-color: #FFEDED;
+  padding: 5px;
+  border-radius: 14px;
+  margin-left: 2%;
 }
 
+.logo-header img {
+  width: 60px;
+  height: auto;
+}
+
+.logo-header span {
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: #222;
+}
+
+.logo-header img{
+  width: 50px;
+}
 /* -------------------MENU----------------- */
 
 .nav-menu {
