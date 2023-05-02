@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }).mount();
   });
 
-  // Scroll-Up
+// Scroll-Up
 
 const irArriba = document.querySelector(".ir-arriba");
 
@@ -16,32 +16,9 @@ irArriba.addEventListener('click', () => {
 });
 
 window.addEventListener("scroll", () => {
-    if (window.scrollY < 600) {
+    if (window.scrollY < 500) {
         irArriba.style.right = -100 + "px";
     } else {
         irArriba.style.right = 5 + "px";
     }
 });
-
-// Animacion
-const elementosAnimar = document.querySelectorAll('.animar, .animar2');
-
-window.addEventListener('scroll', () => {
-  elementosAnimar.forEach(elemento => {
-    const alturaViewport = window.innerHeight;
-    const distanciaElemento = elemento.getBoundingClientRect().top;
-    const alturaElemento = elemento.offsetHeight;
-
-    // Si el elemento está visible en el viewport
-    if (distanciaElemento < alturaViewport) {
-      elemento.classList.add('animado');
-    } else {
-      elemento.classList.remove('animado');
-    }
-  });
-});
-
-
-
-
-

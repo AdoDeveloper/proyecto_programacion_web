@@ -20,8 +20,8 @@
   
   
   .menu__navegacion li {
-  display: block;
-  }
+    display: block;
+    }
   
   .nav-menu {
     text-align: center;
@@ -31,6 +31,18 @@
   
   .splide{
     margin-top: 72px;
+  }
+
+  /* MARCAS */
+
+  .animar {
+    opacity: 0;
+    transform: translateX(-50%);
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+  }
+  .animar.animado {
+    opacity: 1;
+    transform: translateX(0);
   }
 
   /* ------------------------------------------------------------
@@ -60,11 +72,11 @@
       .menu__navegacion li {
       display: block;
       margin: 0.1rem;
+      padding-left: 4.5rem;
       }
   
       .menu__navegacion li a{
         margin: 0;
-        padding-left: 5rem;
       }
   
   #check {
@@ -184,13 +196,13 @@
   }
   
   /* ABAJO DE SPLIDER */
-  .down-splide {
+  .abajo-splide {
     padding: 3%;
     height: auto;
     padding: 30px 50px;
   }
   
-  .down-splide h1 {
+  .abajo-splide h1 {
     font-size: 20px;
   }
   
@@ -395,6 +407,10 @@
   }
   
   /* FOOTER | PIE DE PAGINA */
+
+  .container__footer{
+    padding: 0px 0px;
+  }
   
   .box__footer-1,
   .box__footer-2,
@@ -451,6 +467,5 @@
     }
   
   /* Contenedor 4 (No necesita cambios)*/
-  
   
   }
