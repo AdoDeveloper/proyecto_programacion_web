@@ -19,18 +19,21 @@ form.addEventListener("submit", function(event) {
 });
 
 
-  // Scroll-Up
+// Scroll-Up
 
-  const irArriba = document.querySelector(".ir-arriba");
+const irArriba = document.querySelector(".ir-arriba");
 
-  irArriba.addEventListener('click', () => {
-      document.documentElement.scrollTop = 0;
+irArriba.addEventListener('click', () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
   });
-  
-  window.addEventListener("scroll", () => {
-      if (window.scrollY < 600) {
-          irArriba.style.right = -100 + "px";
-      } else {
-          irArriba.style.right = 5 + "px";
-      }
-  });
+});
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY < 600) {
+    irArriba.style.right = -100 + "px";
+  } else {
+    irArriba.style.right = 5 + "px";
+  }
+});
