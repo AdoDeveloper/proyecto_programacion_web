@@ -213,6 +213,8 @@ a img{
     max-width: 100%;
     margin: 50px 50px 25px 50px;
     width: 300px;
+    border-radius: 5px;
+    box-shadow:  10px 10px 10px #3622228c;
   }
   
   /* Configura el enlace con ID 'descarga' */
@@ -283,6 +285,8 @@ a img{
         max-width: 100%;
         margin: 50px 50px 25px 50px;
         width: 300px;
+        border-radius: 5px;
+        box-shadow:  10px 10px 10px #3622228c;
       }
       
       /* Estilo para el botón de descarga */
