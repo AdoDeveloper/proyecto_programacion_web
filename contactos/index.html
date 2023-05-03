@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./LOGO/LOGO.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/media.css">
+  <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+  <title>Inicio - Distribuidora Milca</title>
+</head>
+
+<body>
+  <header id="contenedor-cabecera">
+    <figure class="logo-header">
+      <img src="img/logo/logo.png" alt="Logo Milca">
+      <span>MILCA</span>
+    </figure>
+    <nav class="nav-menu">
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <figure class="menu-icon"><i class="fa-solid fa-bars" style="color: #ffffff;"></i></figure>
+      </label>
+      <ul class="menu__navegacion">
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="../nosotros/index.html">Nosotros</a></li>
+        <li><a href="../productos/index.html">Productos</a></li>
+        <li class="contacto"><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+  <section class="splide">
+    <div id="image-carousel" class="splide">
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide">
+            <img src="img/carrusel/chef-masa.jpg" alt="">
+          </li>
+          <li class="splide__slide">
+            <img src="img/carrusel/pastelero.jpg" alt="">
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="contactos-container">
+    <h2>
+      ¡Contactanos!
+    </h2>
+  <div id="contactos">
+  <div id="seccion-imagen">
+      <img src="img/contactanos.jpg" alt="contactenos en redes sociales Milca">
+
+  </div>
+  <div id="redes-sociales">
+        <div class="contactos-item"><i class="fa-solid fa-phone" style="color: #362222;"></i><p>+503 2483-3094</p></div>
+        <div class="contactos-item"><i class="fa-brands fa-whatsapp" style="color: #362222;"></i><p>+503 7487-1621</p></div>
+        <div class="contactos-item"><i class="fa-brands fa-instagram" style="color: #362222;"></i><p>distribuidora_milca</p></div>
+        <div class="contactos-item"><i class="fa-brands fa-facebook-f" style="color: #362222;"></i><p>www.facebook.com/Milca.sv</p></div>
+        <div class="contactos-item"><i class="fa-sharp fa-regular fa-envelope" style="color: #362222;"></i><p>milcaazania@gmail.com</p></div>
+  </div>
+</div>
+  </section>
+  
+  <section  class="whatsapp-container">
+    <div class="container">
+      <h1>Enviar mensaje de WhatsApp</h1>
+      <form id="form">
+        <label for="message">Mensaje:</label>
+        <textarea name="text" id="message" rows="10" cols="28" placeholder="Ej. Quiero realizar cotización acerca de [producto]" required></textarea>
+        <button type="submit" id="btn__enviar-mensaje">Enviar mensaje</button>
+      </form>
+    </div>
+  </section>
+  
+    <script src="main.js"></script>
+  
+   <section class="map-container">
+    <h2>Nuestra ubicacion</h2>
+  
+    <div class="map">
+      <div class="map-wrapper">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15501.933767395192!2d-89.6785052!3d13.7496945!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f62c7afc6ce0a57%3A0x1660242355a1c1b0!2sDistribuidora%20Milca!5e0!3m2!1ses-419!2ssv!4v1679082440099!5m2!1ses-419!2ssv"
+          width="800"
+          height="550"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+  
+    <p>Calle Libertad y Avenida Morazan #1, Izalco, Sonsonate, El Salvador</p>
+  </section>
+ </main>
+    <footer>
+
+      <div class="container__footer">
+          <div class="box__footer-1">
+            <div class="contenido__1">
+                <h2 class="footer-title1">Sobre nosotros</h2>
+                <p>Somos una distribuidora de productos de panadería y pastelería con más de 15 años de experiencia en el rubro,
+                  contamos con una diversa variedad de productos a los mejores precios siempre brindando lo que nuestros clientes
+                  necesitan.</p>
+              </div>
+          </div>
+
+          <div class="box__footer-2">
+            <div class="contenido__2">
+            <h2 class="footer-title2">Distribuidora Milca</h2>
+            <div class="footer-redes">
+            <a href=""><i class="fa-brands fa-facebook-f" style="color: #ffff"></i></a>
+            <a href=""><i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i></a>
+            <a href=""><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+            </div>
+          </div>
+          </div>
+
+          <div class="box__footer-3">
+            <div class="contenido__3">
+              <h2 class="footer-title3">Datos de Contacto</h2>
+              <div class="item">
+                <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
+                <p>Calle Libertad y Avenida Morazan, #1, Izalco, Sonsonate</p>
+              </div>
+              <div class="item">
+                <i class="fa-solid fa-phone" style="color: #ffffff;"></i>
+                <p>+503 2483 3094</p>
+              </div>
+              <div class="item">
+                <i class="fa-sharp fa-regular fa-envelope" style="color: #ffffff;"></i>
+                <p>milcaazania@gmail.com</p>
+              </div>
+            </div>
+          </div>
+
+      </div>
+
+      <div class="box__copyright">
+          <hr>
+          <p>&copy; Todos los derechos reservados 2023</p>
+      </div>
+  </footer>
+
+  <button class="ir-arriba">
+    <i class="fa-solid fa-chevron-up" style="color: #ffffff;"></i>
+  </button>
+
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+  <script src="https://kit.fontawesome.com/d07009e15a.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>
