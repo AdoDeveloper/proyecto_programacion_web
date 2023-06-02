@@ -119,6 +119,49 @@ margin: 10px 0;
 font-size: 18px;
 }
 
+/* MISION */
+
+.mision {
+  margin-top: 40px;
+  padding: 10px;
+  max-width: 100%;
+}
+
+.mision__arriba {
+align-items: center;
+margin: 10px 0;
+padding: 20px;
+}
+
+.mision__abajo {
+margin: 10px 0;
+}
+
+.mision__abajo p{
+font-size: 18px;
+}
+/* VISION */
+
+.vision {
+  margin-top: 40px;
+  padding: 10px;
+  max-width: 100%;
+}
+
+.vision__arriba {
+align-items: center;
+margin: 10px 0;
+padding: 20px;
+}
+
+.vision__abajo {
+margin: 10px 0;
+}
+
+.vision__abajo p{
+font-size: 18px;
+}
+
 /* FOOTER | PIE DE PAGINA */
 
 footer{
@@ -285,6 +328,49 @@ footer{
   font-size: 18px;
 }
 
+/* MISION */
+
+.mision {
+  margin-top: 40px;
+  padding: 10px;
+  max-width: 100%;
+}
+
+.mision__arriba {
+flex-direction: column;
+align-items: center;
+margin: 10px 0;
+}
+
+.mision__abajo {
+margin: 10px 0;
+}
+
+.mision__abajo p{
+font-size: 18px;
+}
+
+/* VISION */
+
+.vision {
+  margin-top: 40px;
+  padding: 10px;
+  max-width: 100%;
+}
+
+.vision__arriba {
+flex-direction: column;
+align-items: center;
+margin: 10px 0;
+}
+
+.vision__abajo {
+margin: 10px 0;
+}
+
+.vision__abajo p{
+font-size: 18px;
+}
   /* FOOTER | PIE DE PAGINA */
   
   footer{
@@ -444,6 +530,59 @@ footer{
 .historia__abajo p{
   font-size: 16px;
 }
+
+/* MISION */
+
+.mision {
+  margin-top: 40px;
+  padding: 10px;
+  max-width: 100%;
+}
+
+.mision__arriba {
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.mision__abajo {
+  margin: 10px 0;
+}
+
+.mision__abajo {
+  padding-top: 5px;
+}
+
+.mision__abajo p{
+  font-size: 16px;
+}
+
+/* VISION */
+
+.vision {
+  margin-top: 40px;
+  padding: 10px;
+  max-width: 100%;
+}
+
+.vision__arriba {
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.vision__abajo {
+  margin: 10px 0;
+}
+
+.vision__abajo {
+  padding-top: 5px;
+}
+
+.vision__abajo p{
+  font-size: 16px;
+}
+
 
 /* FOOTER | PIE DE PAGINA */
 

@@ -232,6 +232,86 @@ a img{
   line-height: 150%;
 } /* FIN HISTORIA */
 
+/* -------------------MISION----------------- */
+
+.mision {
+  margin-top: 40px;
+  padding: 60px;
+  max-width: 100%;
+  color: #FFEDED;
+  /* cafe degrado horizontal */
+
+background: linear-gradient(270deg, #B3541E 0%, #362222 100%);
+border: 1px solid #000000;
+}
+
+.mision h2 {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 60px;
+  font-weight: 800;
+}
+
+.mision__arriba {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.mision__abajo {
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
+
+.mision__abajo p {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 150%;
+} /* FIN MISION */
+
+/* -------------------VISION----------------- */
+
+.vision {
+  margin-top: 40px;
+  padding: 60px;
+  max-width: 100%;
+}
+
+.vision h2 {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 60px;
+  font-weight: 800;
+}
+
+.vision__arriba {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.vision__abajo {
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
+
+.vision__abajo p {
+  font-weight: 600;
+  font-size: 28px;
+  color: #241414;
+  line-height: 150%;
+} /* FIN VISION */
+
 /* FOOTER | PIE DE PAGINA */
 
 footer{
