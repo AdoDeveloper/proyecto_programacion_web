@@ -127,12 +127,6 @@ font-size: 18px;
   max-width: 100%;
 }
 
-.mision__arriba {
-align-items: center;
-margin: 10px 0;
-padding: 20px;
-}
-
 .mision__abajo {
 margin: 10px 0;
 }
@@ -146,12 +140,6 @@ font-size: 18px;
   margin-top: 40px;
   padding: 10px;
   max-width: 100%;
-}
-
-.vision__arriba {
-align-items: center;
-margin: 10px 0;
-padding: 20px;
 }
 
 .vision__abajo {
@@ -336,10 +324,8 @@ footer{
   max-width: 100%;
 }
 
-.mision__arriba {
-flex-direction: column;
-align-items: center;
-margin: 10px 0;
+.mision h2{
+  margin-bottom: 10px;
 }
 
 .mision__abajo {
@@ -358,10 +344,8 @@ font-size: 18px;
   max-width: 100%;
 }
 
-.vision__arriba {
-flex-direction: column;
-align-items: center;
-margin: 10px 0;
+.vision h2{
+  margin-bottom: 10px;
 }
 
 .vision__abajo {
@@ -539,10 +523,8 @@ font-size: 18px;
   max-width: 100%;
 }
 
-.mision__arriba {
-  flex-direction: column;
-  align-items: center;
-  margin: 10px 0;
+.mision h2{
+  margin-bottom: 10px;
 }
 
 .mision__abajo {
@@ -565,10 +547,8 @@ font-size: 18px;
   max-width: 100%;
 }
 
-.vision__arriba {
-  flex-direction: column;
-  align-items: center;
-  margin: 10px 0;
+.vision h2{
+  margin-bottom: 10px;
 }
 
 .vision__abajo {

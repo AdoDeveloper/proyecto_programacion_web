@@ -113,7 +113,6 @@ a img{
 
 .contacto a:hover{
   text-decoration: none;
-  
 }
 
 /* -------------------SPLIDER----------------- */
@@ -238,7 +237,7 @@ a img{
   font-weight: 700;
 }
 
-/* -------------------CSS PARA API DE WHATSAPP----------------- */
+/* -------------------CSS PARA MENSAJE DE WHATSAPP----------------- */
 
 .whatsapp-container{
   display: block;
@@ -255,7 +254,7 @@ a img{
 }
 
 
-.container h1{
+.container h2{
   font-size: 40px;
   color: #362222;
   padding: 20px;
@@ -328,6 +327,7 @@ textarea {
 .map-wrapper iframe {
   max-width: 100%;
   max-height: 100%;
+  height: 450px;
   border-radius: 10px;
 }
 

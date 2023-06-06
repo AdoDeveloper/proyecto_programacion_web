@@ -36,7 +36,7 @@ display: block;
 /* ------------------------------------------------------------
 -----------------ESTILO PARA MÁXIMO DE 1024----------------------
 ------------------------------------------------------------ */
-@media only screen and (min-width: 920px) and (max-width: 1024px) {
+@media only screen and (min-width: 921px) and (max-width: 1024px) {
 
   header {
     padding: 7px;
@@ -60,20 +60,21 @@ display: block;
     .menu__navegacion li {
     display: block;
     margin: 0.1rem;
+    padding-left: 4.5rem;
     }
 
     .menu__navegacion li a{
       margin: 0;
-      padding-left: 5rem;
     }
 
 #check {
 display: none;
 }
-.down-splide h1 {
+
+.abajo-splide h1 {
   font-size: 35px;
   margin: 0px 40px;
-}
+  }
 }
 
 /* ------------------------------------------------------------

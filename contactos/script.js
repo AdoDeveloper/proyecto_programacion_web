@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }).mount();
   });
 
-// API URL de whatsapp
+//Preparación de la URL de whatsapp
 var phoneNumber = "50374871621"; 
 
 form.addEventListener("submit", function(event) {

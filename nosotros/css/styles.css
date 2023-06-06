@@ -252,12 +252,6 @@ border: 1px solid #000000;
   font-weight: 800;
 }
 
-.mision__arriba {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
 .mision__abajo {
   padding: 20px;
   margin: 20px;
@@ -287,12 +281,6 @@ border: 1px solid #000000;
   font-size: 35px;
   margin-bottom: 60px;
   font-weight: 800;
-}
-
-.vision__arriba {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 
 .vision__abajo {

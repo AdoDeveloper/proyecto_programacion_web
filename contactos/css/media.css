@@ -60,21 +60,22 @@ display: block;
     .menu__navegacion li {
     display: block;
     margin: 0.1rem;
+    padding-left: 4.5rem;
     }
 
     .menu__navegacion li a{
       margin: 0;
-      padding-left: 5rem;
     }
 
 #check {
 display: none;
 }
 
-.down-splide h1 {
+.abajo-splide h1 {
   font-size: 35px;
   margin: 0px 40px;
-}
+  }
+
 
 }
 
@@ -217,7 +218,7 @@ display: none;
   align-items: center;
 }
 
-.redes-sociales{
+#redes-sociales{
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -366,68 +367,205 @@ padding: 30px 40px;
 font-size: 18px;
 margin: 0px 0px;
 }
+
+/* -------------------IMAGEN CONTACTANOS----------------- */
+#seccion-imagen{
+  width: 100%;
+  justify-content: center;
+  padding: 20px;
+}
+
+#seccion-imagen img {
+  object-fit: cover;
+  height: auto;
+  padding: auto;
+}
+
+/* -------------------CONTACTOS----------------- */
+
+#contactos{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+#redes-sociales {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  padding: 0 40px 0 30px;
+  justify-content: flex-start; /* Alineación vertical */
+  align-items: flex-start; /* Alineación horizontal */
+  word-wrap: break-word;
+}
+
+.contactos-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 10px 5px;
+  max-width: 100%;
+}
+
+.contactos-item p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0px;
+  max-width: 200px;
+  font-size: 16px;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.contactos-item i {
+  font-size: 20px;
+  padding: 10px;
+  font-weight: 700;
+}
+
+/* -------------------CSS PARA MENSAJE DE WHATSAPP----------------- */
+
+.container {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  width: 800px;
+}
+
+.container h2{
+  font-size: 30px;
+  color: #362222;
+  padding: 10px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	font-size: 1.2rem;
+	margin-bottom: 10px;
+}
+
+#btn__enviar-mensaje {
+	background-color: #362222;
+	color: #fff;
+	padding: 10px 20px;
+	font-size: 1.2rem;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+
+/* -------------------CSS PARA MAPS----------------- */
+/* Estilos base */
+
+
+
+.map-container h2{
+  font-size: 30px;
+  color: #362222;
+  padding: 10px;
+}
+
+.map{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.map-wrapper {
+  max-width: 100%;
+  width: 800px;
+  height: auto;
+}
+
+
+.map-wrapper iframe {
+  max-width: 100%;
+  max-height: 100%;
+  height: 360px;
+  border-radius: 10px;
+}
+
+.map-container p{
+  text-align: center;
+  padding: 10px;
+  text-align: justify;
+  font-size: 20px;
+}
   
   /* FOOTER | PIE DE PAGINA */
 
-  .container__footer{
-    padding: 0px 0px;
-  }
-  
-  .box__footer-1,
-  .box__footer-2,
-  .box__footer-3 {
-    width: 100%;
-    display: flex;
-    flex-direction:row;
-    margin-bottom: 30px;
-    justify-content: center;
-  }
-  
-  /* Contenedor 1 */
-  .contenido__1{
-    max-width: 100%;
-  }
-  
-  .contenido__1 p{
-    max-width: 100%;
-  }
-  
-  /* Contenedor 2 */
-  
-  .contenido__2{
-    max-width: 100%;
-  }
-  
-  .footer-redes{
-    justify-content: space-between;
-  }
-  
-  .footer-redes a i{
-    font-size: 20px;
-    padding: 0px 5px;
-  }
-  
-  /* Contenedor 3 */
-  .box__footer-3 {
-    justify-content: center;
-    padding: 20px 10px;
-  }
-  
-  .box__footer-3 h2{
-    text-align: center;
-  }
-  
-  .contenido__3 p{
-    text-align: justify;
-  }
-    
-    .item {
-    gap: 10px;
-    margin: 10px 0px;
-    width: 100%;
-    }
-  
-  /* Contenedor 4 (No necesita cambios)*/
+footer{
+  margin-top: 10px;
+}
 
+.container__footer{
+  padding: 0px 0px;
+}
+
+.box__footer-1,
+.box__footer-2,
+.box__footer-3 {
+  width: 100%;
+  display: flex;
+  flex-direction:row;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
+/* Contenedor 1 */
+.contenido__1{
+  max-width: 100%;
+}
+
+.contenido__1 p{
+  max-width: 100%;
+}
+
+/* Contenedor 2 */
+
+.contenido__2{
+  max-width: 100%;
+}
+
+.footer-redes{
+  justify-content: space-between;
+}
+
+.footer-redes a i{
+  font-size: 20px;
+  padding: 0px 5px;
+}
+
+/* Contenedor 3 */
+.box__footer-3 {
+  justify-content: center;
+  padding: 20px 10px;
+}
+
+.box__footer-3 h2{
+  text-align: center;
+}
+
+.contenido__3 p{
+  text-align: justify;
+}
+  
+  .item {
+  gap: 10px;
+  margin: 10px 0px;
+  width: 100%;
+  }
+/* Contenedor 4 (No necesita cambios)*/
 }
 
