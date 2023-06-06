@@ -36,7 +36,7 @@ h1{font-size: 24px;}
 h2{font-size: 20px;}
 h3{font-size: 18px;}
 h4{font-size: 16px;}
-p{font-size: 15px;}
+p{font-size: 14px;}
 
 a{
   text-decoration: none;
@@ -304,7 +304,7 @@ border: 1px solid #000000;
 
 footer{
   width: 100%;
-  margin:  10px 0 0 0;
+  margin:  200px 0 0 0;
   padding: 0;
   box-sizing: border-box;
   background-color: #362222;
@@ -324,6 +324,15 @@ footer{
   margin-bottom: 0;
 }
 
+.contenido__1 h2,
+.contenido__2 h2,
+.contenido__3 h2{
+  padding-bottom: 10px;
+  font-weight: 600;
+}
+
+/* Contenedor 1 */
+
 .box__footer-1{
   padding: 20px 60px;
 }
@@ -334,13 +343,7 @@ footer{
   text-align: justify;
 }
 
-.contenido__1 h2,
-.contenido__2 h2,
-.contenido__3 h2{
-  padding-bottom: 10px;
-  font-weight: 600;
-}
-
+/* Contenedor 2 */
 .box__footer-2 {
   text-align: center;
   place-items: center;
@@ -360,7 +363,8 @@ footer{
 }
 
 
-/* 3 */
+/* Contenedor 3 */
+
 .box__footer-3 {
   display: flex;
   justify-content: flex-end;
@@ -385,6 +389,8 @@ footer{
   font-size: 20px;
   }
 
+/* Contenedor 4 */
+
 .box__copyright hr{
   border: none;
   height: 1px;
@@ -392,13 +398,14 @@ footer{
   width: 100%;
 }
 
+
 .box__copyright p{
   margin: auto;
   text-align: center;
   padding: 10px 0px;
- } /* FIN FOOTER */
+}
 
-/* Boton Ir Arriba */
+/* Ir Arriba */
 
 .ir-arriba {
   position: fixed;
@@ -422,4 +429,4 @@ footer{
 
 .ir-arriba:hover {
   transform: scale(1.2);
-} /* FIN BOTON * 
+}/* FIN BOTON * 

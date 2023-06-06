@@ -358,7 +358,7 @@ font-size: 18px;
   /* FOOTER | PIE DE PAGINA */
   
   footer{
-    margin-top: 5px;
+    max-width: 100%;
   }
   
   .container__footer {
@@ -426,20 +426,20 @@ font-size: 18px;
   .box__copyright p{
     font-size: 13px;
   }
-
-/* Ir Arriba */
-
-.ir-arriba {
-  width: 25px;
-  height: 25px;
-}
-
-.ir-arriba i {
-
-  font-size: 15px;
-  font-weight: bold;
-}
-
+  
+  /* Botón Ir Arriba */
+  
+  .ir-arriba {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .ir-arriba i {
+  
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
 }
 
 /* ------------------------------------------------------------
