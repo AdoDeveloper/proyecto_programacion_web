@@ -186,7 +186,7 @@ a img{
     }
     
     .grid-container img:hover{
-      transform: scale(1.1);
+      transform: scale(1.02);
     }
     
     /* Configura las imágenes dentro de los elementos con clase 'grd-contaainer img' */
