@@ -1,11 +1,37 @@
 document.addEventListener('DOMContentLoaded', function () {
-    new Splide('#image-carousel', {
-      type: 'loop', // Habilita el modo de bucle para el carrusel
-      perMove: 1, // Configura la cantidad de diapositivas que se mueven con cada cambio (en este caso, 1)
-      autoplay: true, // Habilita el autoplay
-      interval: 5000, // Configura el tiempo de reproducción automática en milisegundos (en este caso, 5000 ms o 5 segundos)
-    }).mount();
-  });
+  const carousel = new Splide('#image-carousel', {
+    type: 'loop',
+    perMove: 1,
+    autoplay: true,
+    interval: 5000,
+  }).mount();
+
+  const slides = document.querySelectorAll('.splide__slide');
+
+  function isInViewport(element) {
+    const rect = element.getBoundingClientRect();
+    return (
+      rect.top >= 0 &&
+      rect.left >= 0 &&
+      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+  }
+
+  function handleVisibility() {
+    slides.forEach(function (slide) {
+      if (isInViewport(slide)) {
+        carousel.enable(slide); // Activar la diapositiva si está visible
+      } else {
+        carousel.disable(slide); // Desactivar la diapositiva si no está visible
+      }
+    });
+  }
+
+  // Llamar a la función handleVisibility en el evento scroll
+  window.addEventListener('scroll', handleVisibility);
+});
+
 
 // Scroll-Up
 
